@@ -1,0 +1,101 @@
+[
+  {
+    "id": "pacific",
+    "name": "Pacific Plate",
+    "areaMillionKm2": 103.3,
+    "velocity": { "magnitude": 8.1, "direction": "WNW", "bearing": 292 },
+    "centroid": { "lat": 8, "lng": -150 },
+    "color": "#5eead4",
+    "summary": "The largest tectonic plate, carrying most of the Pacific Ocean basin.",
+    "neighbors": ["north-american", "nazca", "philippine-sea", "australian"],
+    "polygon": [[52, -175], [48, 170], [22, 145], [-12, 150], [-52, -135], [-42, -105], [5, -105], [38, -125], [52, -175]]
+  },
+  {
+    "id": "north-american",
+    "name": "North American Plate",
+    "areaMillionKm2": 75.9,
+    "velocity": { "magnitude": 2.0, "direction": "WSW", "bearing": 245 },
+    "centroid": { "lat": 47, "lng": -105 },
+    "color": "#93c5fd",
+    "summary": "Carries North America, Greenland, and part of the Atlantic seafloor.",
+    "neighbors": ["pacific", "eurasian", "caribbean"],
+    "polygon": [[72, -170], [80, -60], [65, -20], [25, -55], [10, -95], [30, -125], [55, -135], [72, -170]]
+  },
+  {
+    "id": "south-american",
+    "name": "South American Plate",
+    "areaMillionKm2": 43.6,
+    "velocity": { "magnitude": 3.0, "direction": "W", "bearing": 270 },
+    "centroid": { "lat": -18, "lng": -53 },
+    "color": "#fbbf24",
+    "summary": "Moves westward away from the Mid-Atlantic Ridge and over the Nazca Plate.",
+    "neighbors": ["nazca", "african", "antarctic", "caribbean"],
+    "polygon": [[12, -82], [12, -35], [-5, -20], [-45, -25], [-58, -58], [-40, -76], [0, -80], [12, -82]]
+  },
+  {
+    "id": "eurasian",
+    "name": "Eurasian Plate",
+    "areaMillionKm2": 67.8,
+    "velocity": { "magnitude": 1.5, "direction": "ESE", "bearing": 112 },
+    "centroid": { "lat": 50, "lng": 55 },
+    "color": "#c4b5fd",
+    "summary": "Carries most of Europe and Asia; its southern margin is shaped by continental collision.",
+    "neighbors": ["north-american", "african", "indian", "arabian", "pacific"],
+    "polygon": [[75, -15], [75, 160], [52, 175], [24, 110], [26, 35], [40, -10], [75, -15]]
+  },
+  {
+    "id": "african",
+    "name": "African Plate",
+    "areaMillionKm2": 61.3,
+    "velocity": { "magnitude": 2.2, "direction": "NE", "bearing": 45 },
+    "centroid": { "lat": 4, "lng": 20 },
+    "color": "#fb7185",
+    "summary": "Drifts northeastward, with rifting across eastern Africa and convergence beneath Europe.",
+    "neighbors": ["south-american", "eurasian", "arabian", "antarctic"],
+    "polygon": [[35, -20], [38, 35], [12, 48], [-35, 35], [-38, 12], [-10, -18], [35, -20]]
+  },
+  {
+    "id": "antarctic",
+    "name": "Antarctic Plate",
+    "areaMillionKm2": 60.9,
+    "velocity": { "magnitude": 1.2, "direction": "N", "bearing": 0 },
+    "centroid": { "lat": -77, "lng": 20 },
+    "color": "#bae6fd",
+    "summary": "Surrounds Antarctica and is bounded mostly by oceanic spreading ridges.",
+    "neighbors": ["south-american", "african", "australian", "pacific"],
+    "polygon": [[-58, -180], [-58, 180], [-72, 180], [-87, 90], [-87, -90], [-72, -180], [-58, -180]]
+  },
+  {
+    "id": "indian",
+    "name": "Indian Plate",
+    "areaMillionKm2": 11.9,
+    "velocity": { "magnitude": 5.0, "direction": "NNE", "bearing": 25 },
+    "centroid": { "lat": 20, "lng": 79 },
+    "color": "#f97316",
+    "summary": "Moving north into Eurasia, this plate is helping build the Himalayas.",
+    "neighbors": ["eurasian", "australian", "arabian"],
+    "polygon": [[31, 62], [31, 95], [5, 96], [-10, 82], [4, 65], [31, 62]]
+  },
+  {
+    "id": "australian",
+    "name": "Australian Plate",
+    "areaMillionKm2": 47.2,
+    "velocity": { "magnitude": 6.9, "direction": "NNE", "bearing": 20 },
+    "centroid": { "lat": -28, "lng": 133 },
+    "color": "#a3e635",
+    "summary": "A fast-moving plate carrying Australia and much of the Indian Ocean seafloor.",
+    "neighbors": ["indian", "pacific", "antarctic", "eurasian"],
+    "polygon": [[-8, 95], [8, 145], [-12, 160], [-47, 151], [-50, 105], [-28, 90], [-8, 95]]
+  },
+  {
+    "id": "nazca",
+    "name": "Nazca Plate",
+    "areaMillionKm2": 15.6,
+    "velocity": { "magnitude": 7.0, "direction": "ENE", "bearing": 70 },
+    "centroid": { "lat": -20, "lng": -105 },
+    "color": "#38bdf8",
+    "summary": "An oceanic plate subducting beneath South America, driving Andean volcanism and earthquakes.",
+    "neighbors": ["pacific", "south-american", "antarctic"],
+    "polygon": [[5, -125], [0, -85], [-48, -84], [-55, -125], [-25, -135], [5, -125]]
+  }
+]
