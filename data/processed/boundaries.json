@@ -1,0 +1,7 @@
+[
+  { "id": "himalayas", "name": "Himalayas", "type": "convergent", "plates": ["indian", "eurasian"], "coordinates": [[34, 73], [33, 79], [31, 86], [29, 92]], "description": "Two continental plates collide. Neither readily sinks, so the crust shortens, thickens, and rises into mountains." },
+  { "id": "andes", "name": "Andes", "type": "convergent", "plates": ["nazca", "south-american"], "coordinates": [[7, -78], [-8, -78], [-22, -74], [-42, -74]], "description": "Dense oceanic crust of the Nazca Plate descends beneath South America, feeding volcanoes and powerful earthquakes." },
+  { "id": "san-andreas", "name": "San Andreas Fault", "type": "transform", "plates": ["pacific", "north-american"], "coordinates": [[39, -124], [35, -120], [32, -116]], "description": "The Pacific and North American plates slide horizontally past one another, storing and releasing stress as earthquakes." },
+  { "id": "mid-atlantic", "name": "Mid-Atlantic Ridge", "type": "divergent", "plates": ["north-american", "eurasian", "south-american", "african"], "coordinates": [[64, -27], [35, -29], [4, -28], [-30, -18], [-52, -15]], "description": "New oceanic crust forms as plates pull apart, gradually widening the Atlantic Ocean." },
+  { "id": "east-african-rift", "name": "East African Rift", "type": "divergent", "plates": ["african"], "coordinates": [[12, 40], [3, 36], [-8, 35], [-18, 35]], "description": "The African Plate is stretching and thinning. Over geological time, this continental rift may open into a new ocean basin." }
+]
